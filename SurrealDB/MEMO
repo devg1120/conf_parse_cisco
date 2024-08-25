@@ -1,0 +1,28 @@
+SurrealDBの紹介
+https://pythonosaka.notion.site/SurrealDB-7b56b9f61eda419c957da9c78fcfc312
+
+
+
+$ docker run --rm -p 8000:8000 surrealdb/surrealdb:latest start
+$ podman run --rm -p 8000:8000 surrealdb/surrealdb:latest start
+
+# local
+
+```bash
+$ curl -sSf https://install.surrealdb.com | sh
+```
+
+
+```bash
+$ surreal start --user root --pass root   memory
+```
+
+file:///path/to/data.db                   ファイルシステム(RocksDB)
+rocksdb:///path/to/data.db                RocksDB
+tikv://endpoiint TiKV                     TiKV
+fdb:[///path/to/clusterfile]              FoundationDB (リビルドが必要）
+
+# python sdk
+https://surrealdb.com/docs/sdk/python/setup
+
+
