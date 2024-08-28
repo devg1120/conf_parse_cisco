@@ -1,5 +1,7 @@
+import sys 
+sys.path.insert(0,"./surrealdb.py-0.3.2")    
+
 from surrealdb import Surreal
-#from surrealdb import AsyncSurrealDB
 import asyncio
 import datetime
 

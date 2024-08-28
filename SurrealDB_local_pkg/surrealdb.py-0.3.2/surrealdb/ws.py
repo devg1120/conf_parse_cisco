@@ -190,6 +190,7 @@ class Surreal:
     """
 
     def __init__(self, url: str, max_size: Optional[int] = 2**20) -> None:
+        print("Surreal  init")
         self.url = url
         self.max_size = max_size
         self.client_state = ConnectionState.CONNECTING

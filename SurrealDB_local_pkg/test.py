@@ -1,3 +1,6 @@
+#from surrealdb import Surreal
+import sys
+sys.path.insert(0,"./surrealdb.py-0.3.2")
 from surrealdb import Surreal
 
 async def main():
