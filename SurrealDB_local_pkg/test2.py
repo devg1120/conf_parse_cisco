@@ -31,7 +31,12 @@ async def test1(db):
        "marketing": False,
        "tags": ["Awesome"]
    })
+   print(await db.select("person"))
    
+   #people = await db.merge('person', {
+   #	"user" : "TEST",
+   #})
+   #print(await db.select("person"))
    # %%
    await db.delete("person")
    print(await db.select("person"))

@@ -71,7 +71,9 @@ async def test12(db):
        "marketing": False,
        "tags": ["Awesome"]
    })
-   
+   #await db.merge('person:test002', {
+   #   "user":"you2",
+   #         })  
    #await db.merge("person:test002", {
    #    "user2":"gs",
    #})

@@ -25,4 +25,9 @@ fdb:[///path/to/clusterfile]              FoundationDB (リビルドが必要）
 # python sdk
 https://surrealdb.com/docs/sdk/python/setup
 
+#######################################################
+RPC
+
+https://surrealdb.com/docs/surrealdb/integration/rpc
+
 
